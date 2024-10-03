@@ -1,0 +1,696 @@
+
+@font-face {
+    font-family: 'SanFranciscoDisplay-Light';
+    src: url('../fonts/SanFranciscoDisplay-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/SanFranciscoDisplay-Light.woff') format('woff'), url('../fonts/SanFranciscoDisplay-Light.ttf')  format('truetype'), url('../fonts/SanFranciscoDisplay-Light.svg#SanFranciscoDisplay-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SanFranciscoDisplay-Medium';
+    src: url('../fonts/SanFranciscoDisplay-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/SanFranciscoDisplay-Medium.woff') format('woff'), url('../fonts/SanFranciscoDisplay-Medium.ttf')  format('truetype'), url('../fonts/SanFranciscoDisplay-Medium.svg#SanFranciscoDisplay-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'SanFranciscoDisplay-Heavy';
+    src: url('../fonts/SanFranciscoDisplay-Heavy.eot?#iefix') format('embedded-opentype'),  url('./fonts/SanFranciscoDisplay-Heavy.woff') format('woff'), url('../fonts/SanFranciscoDisplay-Heavy.ttf')  format('truetype'), url('../fonts/SanFranciscoDisplay-Heavy.svg#SanFranciscoDisplay-Heavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins.eot?#iefix') format('embedded-opentype'),  url('.../fonts/Poppins.woff') format('woff'), url('../fonts/Poppins.ttf')  format('truetype'), url('../fonts/Poppins.svg#Poppins') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Poppins-Light.woff') format('woff'), url('../fonts/Poppins-Light.ttf')  format('truetype'), url('../fonts/Poppins-Light.svg#Poppins-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Poppins-SemiBold.woff') format('woff'), url('../fonts/Poppins-SemiBold.ttf')  format('truetype'), url('../fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SanFranciscoDisplay-Regular';
+    src: url('../fonts/SanFranciscoDisplay-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/SanFranciscoDisplay-Regular.woff') format('woff'), url('../fonts/SanFranciscoDisplay-Regular.ttf')  format('truetype'), url('../fonts/SanFranciscoDisplay-Regular.svg#SanFranciscoDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SanFranciscoDisplay-Bold';
+    src: url('../fonts/SanFranciscoDisplay-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/SanFranciscoDisplay-Bold.woff') format('woff'), url('../fonts/SanFranciscoDisplay-Bold.ttf')  format('truetype'), url('../fonts/SanFranciscoDisplay-Bold.svg#SanFranciscoDisplay-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, sub, sup, tt, var, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea { margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; }
+/* HTML5 reset-browser */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body {  font-family: 'SanFranciscoDisplay-Medium';}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+a { text-decoration: none }
+:focus { outline: 0 }
+.clear { clear: both }
+img { max-width: 100%; height: auto; }
+.container{
+    width: 96%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.menu{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.menu ul li{
+    display: inline-block;
+    align-content: center;
+    margin-left:40px;
+    font-family: 'SanFranciscoDisplay-Medium';
+}
+.menu ul li a{
+    color: black;
+}
+.slider{
+    width: 90%;
+    margin: auto;
+}
+.haberlerSlide .swiper-button-prev{
+  background-image: url("../images/icon/prev.png") !important;
+  background-size: 100% !important;
+  width: 57px !important;
+  height: 57px !important;
+}
+.haberlerSlide .swiper-button-next{
+    background-image: url("../images/icon/next.png") !important;
+    background-size: 100% !important;
+    width: 57px !important;
+    height: 57px !important;
+  }
+  .referanslar::before{
+    content: "REFERANSLAR ";
+    color: #eeeded;
+    font-size: 140pt;
+    position: relative;
+    right: -40px;
+  }
+
+.referans{
+    margin-bottom: 5%;
+    position: relative;
+}
+  .referans .swiper-button-prev{
+    background-image: url("../images/icon/left-arrow.png") !important;
+    background-size: 100% !important;
+    left: -40px;
+  }
+  .referans .swiper-button-next{
+      background-image: url("../images/icon/right-arrow.png") !important;
+      background-size: 100% !important;
+      right: -40px;
+    }
+.orta{
+    width: 100%;
+    margin-top:5%;
+}
+.icerik{
+    width: 40%;
+    margin-left:20%;
+    float: left;
+    margin-bottom:5%; 
+}
+.icerik p{
+    line-height: 173%; 
+    font-family: 'SanFranciscoDisplay-Regular';
+}
+p{
+    color: #a29e9e;
+    line-height: 20px;
+}
+
+.kutu{
+    width: 300px;
+    height: 700px;
+    background-color: #b60000;
+    float: right;
+    position: relative;
+}
+.resim{
+   
+float: right;
+   
+position: absolute;
+   
+width: 510px;
+   
+right: 0px;
+   
+top: 40px;
+}
+
+.yazi3{
+    font-family: 'SanFranciscoDisplay-Heavy';
+    padding-top: 8%;
+}
+.yazi3 h1{
+    color: #b60000; 
+    font-size:200pt;
+    float: left
+}
+
+.resim2{
+    background-image:url("../images/r2.jpg");
+    background-attachment: fixed;
+    /*background-size: cover;*/
+    background-position: center;
+    background-color: black;
+    opacity: 0.9;
+    height: 265px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.resim2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+.resim2 ul li{
+    /* display: inline-flex; */
+    margin-right: 100px;
+    align-items:center;
+    color: white;
+    font-size: 58pt;
+    text-align: center;
+    font-family: 'SanFranciscoDisplay-Bold';
+}
+.resim2 ul li span{
+    font-family: 'SanFranciscoDisplay-Medium';
+}
+
+.resim2 ul {
+    position: relative;
+    display: table;
+}
+ 
+.resim2 ul li:last-child {
+    margin-right: 0px; 
+}
+.sol{
+    width: 50%;
+    float: right;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+.sag{
+    width: 50%;
+    background-color: black;
+    float: left;
+    z-index: 2;
+    position: relative;
+    height: 100%;
+}
+.ayd{
+    background-color: #b60000;
+    /* height: 225px; */
+    color: white;
+    font-family: 'Poppins';
+    margin-left:10%;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 100px 20px 50px 20px;
+    float: left;
+}
+
+.iletsim-sag {
+    display: inline-block;
+    float: left;
+  
+    color:white;
+    font-size: 20pt;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+span.a1{
+    font-size: 12pt; color: #b60000; font-family:'Poppins-Light'; padding-bottom: 20px;
+}
+
+.ayd span {
+    text-align: center;
+}
+.sag-alt{
+    width: 40%;
+    margin-left: 15%;
+}
+.sag1 img{
+    margin-top: 10%;
+
+}
+.sag1{
+    margin-bottom:10%; 
+}
+.sag2{
+    margin-bottom:10%; 
+}
+.footer{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background: #b60000;
+    height: 110px;
+    padding-top: 125px;
+    margin-top: -125px;
+}
+.copyright{
+    font-family: 'Poppins-SemiBold';
+    color: white;
+    font-size: 10pt;
+    display: table;
+    position: relative;
+}
+.footer-menu{position: relative;display: table;}
+.footer-menu ul li{
+    display: inline-block;
+    align-content: center;
+    margin-left:40px;
+    font-family: 'SanFranciscoDisplay-Medium';
+}
+.footer-menu ul li a{
+    color: #f6e9e9;
+    font-size: 11pt;
+}
+.banner{
+    background:url("../images/r7.jpg");
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 515px;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    align-items: center;
+    justify-content: center;
+}
+.banner::before { content: ""; position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.74); };
+
+.banner-yazi{
+    display: block ;
+    color: #ffffff;
+    z-index: 1;
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.banner-ayd{
+    display: block;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 17px;
+}
+.hizmet{
+    width: 100%;
+    margin-top: 5%;
+}
+.right{
+    width:40%;
+    float: left;
+}
+.left{
+    width: 40%;
+    float: left;
+    margin: 5% 0% 5% 5%;
+}
+.left b{
+    font-size: 93px;
+    color: #b60000;
+    line-height: 70px;
+    margin-right: 3%;
+
+}
+.left strong{
+    font-size: 33px;
+    display: flex;
+    align-items: end;
+    font-family: 'SanFranciscoDisplay-Medium';
+}
+
+.hizmet-title {
+    display: flex;
+    align-items: end;
+    margin-bottom:5%; 
+}
+.left p{
+    font-family: 'SanFranciscoDisplay-Regular';
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #a29e9e;
+}
+.clear{
+    clear: both;
+}
+.hizmet2{
+    width: 100%;
+    margin-top: 5%;
+}
+.left2{
+    width: 40%;
+    float: left;
+    margin:5% 0% 5% 10%;
+}
+.left2 b{
+    font-size: 93px;
+    color: #b60000;
+    line-height: 70px;
+    margin-right: 3%;
+}
+.left2 strong{
+    font-size: 33px;
+    display: flex;
+    align-items: end;
+    font-family: 'SanFranciscoDisplay-Medium';
+}
+.hizmet-title2 {
+    display: flex;
+    align-items: end;
+    margin-bottom:5%; 
+}
+.left2 p{
+    font-family: 'SanFranciscoDisplay-Regular';
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #a29e9e;
+}
+.right2{
+    width:40%;
+    float: right;
+}
+.resim3{
+    width:30%;
+    float: right;
+    margin-top:5%;
+}
+.kutu2{
+    width: 300px;
+    height: 450px;
+    background-color: #b60000;
+    float: right;
+    margin-top:-70%;
+}
+.y2{
+    margin-top:10%; 
+}
+.proje-color{
+    background-color: #f7f6f6;
+    margin-top: 5%;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.proje ul{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.proje ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.proje ul li img{
+    width: 100%;
+    transform: scale(1.0);
+    transition: 500ms all;
+}
+.proje ul li a:hover img {
+     transform: scale(1.1);
+     }
+.proje ul li i { overflow: hidden; 
+    display: block;
+ }
+.proje ul li span { 
+    display: table; 
+    font-size: 15px;
+     color: #000000;
+      margin-top: 15px; 
+      font-family:'SanFranciscoDisplay-Regular'; 
+    }
+.proje ul li span b { display: 
+    block; font-size: 18pt; 
+    font-family: 'SanFranciscoDisplay-Bold'; 
+}
+
+.proje-baslik ul {
+    display: table;
+    margin: auto; 
+    margin-top: 45px;
+    font-size: 17pt;
+     }
+.proje-baslik ul li {
+    float: left;
+    margin-right: 65px; }
+.proje-baslik ul li a{
+    color: #a29e9e;
+}
+.projeler ul{
+ display: flex;
+ justify-content: center;
+ margin: 5% 0%;
+    }
+.projeler ul li {
+    display: inline-block;
+    width: 15%;
+    margin-right: 50px;
+}
+
+.projeler ul li a {
+    display: block;
+    position: relative;
+}
+
+.projeler ul li a h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #d8ddeb;
+    font-size: 108px;
+    line-height: 97px;
+}
+
+.projeler ul li a h3 span {
+    position: absolute;
+    font-size: 34px;
+    color: #000000;
+    font-family: 'SanFranciscoDisplay-Bold';
+    font-weight: bold;
+    left: 0px;
+    top: 0px;
+}.projeler ul li:last-child {
+    margin-right: 0px;
+}
+
+.banner-yazi{
+    display: block ;
+    color: #ffffff;
+    z-index: 1;
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.resim2 ul li span {
+    display: block;
+    font-size: 20px;
+}
+.resim2 ul {
+    display: flex;
+}
+ul.bottom li {
+    display: table;
+    margin-bottom: 35px;
+}
+ul.bottom li i {
+    float: left;
+    margin-right: 18px;
+}
+ul.bottom li strong {
+    position: relative;
+    float: left;
+    color: #ffffff;
+    width: 400px;
+}
+ul.bottom {
+    padding: 10% 0% 10% 15%;
+}
+ul.yaziler { display: inline-block;
+     width: 100%;
+     margin-top: 67px;
+     }
+ul.yaziler li {
+     float: left;
+     width: calc(50% - 15px);
+     margin-right: 30px;
+     display: flex;
+    }
+ul.yaziler li i {  float: left; 
+    width: 60px; 
+    margin-right: 20px; 
+    margin-top: -10px; 
+}
+ul.yaziler li p {  
+     width: calc(100% - 80px); 
+     font-size: 15px; 
+    }
+ul.yaziler li p span { display: table; font-size: 18px; color: #333131; font-family: 'SanFranciscoDisplay-Medium'; margin-bottom: 10px; }
+ul.yaziler li:last-child { margin-right: 0px; }
+
+.yazi3 { position: relative;
+     display: flex;
+      align-items: center; 
+      margin-top: 50px;
+ }
+
+.yazi3 b { 
+    display: block;
+     color: #b60000; font-family:
+      'SanFranciscoDisplay-Heavy'; 
+      font-size: 260px;
+       margin-right: 30px; 
+}
+.yazi3 span { 
+    color: #9d9898; 
+    font-size: 25px; 
+}
+.yazi3 span strong {
+     display: block; 
+     font-size: 55px; 
+     color: #333131;
+      font-family: 'SanFranciscoDisplay-Heavy'; 
+}
+ .referanslarSlider .swiper-slide img {
+    width: 100%;
+ }
+ .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #b60000 !important;
+}
+.contact {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 650px;
+}
+.arkaplan{
+    height: 439px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.arkaplan span {
+    font-size: 15pt;
+  float: left;
+    width: 100%;
+    text-align: center;
+}
+.arkaplan strong {
+    float: left;
+    width: 100%;
+      text-align: center;
+      font-family: 'SanFranciscoDisplay-Bold';
+      font-size: 45pt;
+}
+.arkaplan p{
+      color: white;
+    width: 550px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 35px;
+}
+.haberDetay{
+    width: 100%;
+    text-align: center;
+        opacity: 0.9;
+}
+.anasliderArkaplan{
+    height: 747px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+        background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.haberDetay h2 span{
+    width: 100%;
+    text-align: center;
+    color: #b60000; 
+}
+.haberDetay h2{
+    font-size: 70pt;
+    letter-spacing: 5px;
+}
+.arkaplan::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 26, 26, 0.30);
+}
+
+.sloganBtn { position: relative; display: table; margin: auto; margin-top: 15px; }
+.sloganBtn a { position: relative; display: flex; align-items: center; justify-content: center; text-align: center; color: #ffffff; font-size: 17px; width: 155px; height: 50px; z-index: 1; font-family: 'SanFranciscoDisplay-Medium'; }
+.sloganBtn::before, .sloganBtn::after, .sloganBtn a::before, .sloganBtn a::after { content: ""; position: absolute; background: #b60000; transition: 500ms all; }
+.sloganBtn::before { width: 2px; height: 25px; left: 0px; top: 0px; }
+.sloganBtn::after { position: absolute; height: 2px; width: 55px; top: 0px; left: 0px; }
+.sloganBtn a::before { width: 2px; height: 25px; bottom: 0px; right: 0px; }
+.sloganBtn a::after { width: 55px; height: 2px; bottom: 0px; right: 0px; }
+.sloganBtn:hover::before { width: 100%; height: 50%; background: #b60000; left: 0px; }
+.sloganBtn a:hover::before { width: 100%; height: 50%; background: #b60000; right: 0px; }
+.sloganBtn a span { position: relative; }

@@ -1,0 +1,565 @@
+
+@media only screen and (max-width:1475px) {
+}
+@media only screen and (max-width:2560px) {
+    .swiperReferans{
+        display: none;
+    }
+    .swiperHaber{
+        display: none;
+    }
+    .swiperAna{
+        display: none;
+    }
+    .swiperAna{
+        display: block;
+    }
+    .swiperhb{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1375px) {
+    .kutu {
+        width: 250px;
+        height: 500px;
+        background-color: #b60000;
+        float: right;
+        background-size:75%;
+    }
+    .resim img{
+        width: 70%;
+        margin-left: 30%;
+    }
+    .yazilar i img{
+        float: left;
+    }
+    .yazi1{
+        width: 35%;
+        float: left;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right:10px ;
+    }
+    .yazi2{
+        width: 35%;
+        float: left;
+        text-align: justify;
+        margin-left: 10px;
+    }
+    .yazi3{
+        font-family: 'SanFranciscoDisplay-Heavy';
+    }
+    .yazi3 b {
+        font-size: 185px;
+    }
+    .yazi3 span {
+        font-size: 22px;
+        font-family: 'SanFranciscoDisplay-light';
+    }
+    .yazi3 span strong {
+        font-size: 50px;
+    }
+    .ayd{
+        background-color: #b60000;
+        /* height: 225px; */
+        color: white;
+        font-family: 'Poppins';
+        margin-left:10%;
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+        padding: 80px 15px 40px 15px;
+        float: left;
+    }
+    .iletsim-sag {
+        margin: 16% 0% 0% 5%;
+        }
+        .yazi1{
+            width: 35%;
+            float: left;
+            text-align: justify;
+            margin-left: 20px;
+            margin-right:20px ;
+        }
+        .yazi2{
+            width: 35%;
+            float: left;
+            text-align: justify;
+            margin-left: 20px;
+        }
+        ul.yaziler li p {
+            font-size: 14px;
+        }
+        .icerik{
+            width: 45%;
+            margin-left: 16%;
+            float: left;
+        }
+        .projeTasarimRight {
+            width: 238px;
+            height: 570px;
+        }
+        .anasliderArkaplan{
+            height: 550px;
+        }
+        .haberDetay h2{
+            font-size: 75px;
+        }
+        .arkaplan p{
+            color: white;
+          width: 550px;
+          margin: auto;
+          font-size: 17px;
+          line-height: 27px;
+      }
+      .arkaplan strong {
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+    .arkaplan {
+        height: 300px;
+        width: 100%;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    .kutu2 {
+        width: 292px;
+        height: 513px;
+        background-color: #b60000;
+        float: right;
+        margin-top: -94%;
+    }
+        
+}
+
+@media only screen and (max-width:1100px) {
+}
+
+@media(min-width:769px) and (max-width:1100px) {
+}
+
+@media only screen and (max-width:768px) {
+.wrapper { background-size: 100%; position: relative; display: inline-block; width: 100%; min-height: inherit; right: 0px; }
+.form-holder { position: relative; width: 100%; }
+.form-inner { width: 300px; margin: 0 auto; display: table; }
+.menu { display: none; }
+.main-page{height: auto;}
+}
+
+@media only screen and (max-width: 479px) {
+.galeri li { width: 48%; }
+.kutu {
+    /* display: none; */
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .icerik h1{
+      font-size: 16pt;
+      line-height:150%; 
+      text-align: center;
+      margin-bottom: 7px;
+  }
+  .icerik {
+      width: 100%;
+      margin:0%;
+      float: left;
+  }
+  .icerik p{
+      line-height:180%; 
+      font-family: 'SanFranciscoDisplay-Regular';
+      font-size: 14px;
+      margin: 0px 10px;
+  }
+  .slider{
+      width: 100%;
+  }
+  .yaziler li i img{
+      float: left;
+      width:75%;
+  }
+  .yazi1{
+      width: 100%;
+      float: left;
+  
+  }
+  .yazi1 h3{
+     display: table;
+  
+  }
+  ul.yaziler li {
+       position: relative;
+       float: left;
+       width: 100%;
+       margin-right: 0px;
+       margin-bottom: 30px;
+       display: flex;
+       }
+  
+  .resim2 {
+      background-image: url(../images/r2.jpg);
+      background-attachment: fixed;
+      /* background-size: cover; */
+      background-position: center;
+      background-color: black;
+      opacity: 0.9;
+      height: auto;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 3%;
+      padding: 30px 0px;
+  }
+  .yazi3 { position: relative;
+    display: flex;
+     align-items: center; 
+     margin-top: 0px;
+     padding-top:0px; 
+     justify-content: center;
+}
+
+.yazi3 b { 
+   display: block;
+    color: #b60000; font-family:
+     'SanFranciscoDisplay-Heavy'; 
+     font-size: 70pt;
+      margin-right: 10px; 
+    }
+.yazi3 span { 
+   color: #9d9898; 
+   font-size: 14pt; 
+}
+.yazi3 span strong {
+    display: block; 
+    font-size: 20pt; 
+    color: #333131;
+     font-family: 'SanFranciscoDisplay-Heavy'; 
+    }
+     .referanslar::before {
+        content: "REFERANSLAR ";
+        color: #eeeded;
+        font-size: 31pt;
+        position: relative;
+        right: 0%;
+    }
+    .referanslarSlider .swiper-button-prev{
+        background-image: url("../images/icon/left-arrow.png") !important;
+        background-size: 50% !important;
+      }
+      .referanslarSlider .swiper-button-next{
+          background-image: url("../images/icon/right-arrow.png") !important;
+          background-size: 50% !important;
+        }
+        .sag {
+            width:100%;
+            background-color: black;
+        }
+        ul.bottom {
+            padding: 3% 0% 3% 3%;
+            margin-left: 5%;
+        }
+        ul.bottom li i img {
+            width: 80%;
+        }
+        ul.bottom li strong {
+            position: relative;
+      
+            color: #ffffff;
+            width: 67%;
+        }
+        ul.bottom li strong p {
+            font-size: 11pt;
+        }
+        span.a1{
+            font-size: 8pt;
+             color: #b60000; 
+             font-family:'Poppins-Light';
+        }
+        .ayd{
+            background-color: #b60000;
+            color: white;
+            font-family: 'Poppins';
+            margin-left:5%;
+            line-height: 30px;
+            display: inline-block;
+            text-align: center;
+            padding: 55px 10px 30px 10px;
+            margin-bottom: 10%;
+        }
+        .sol{
+            width: 100%;
+            float: right;
+            height: 300px;
+        }
+        .container{
+            width: 100%;
+        }
+        .footer-menu ul li{
+            margin: 0px;
+            padding: 0px;
+        }
+        .copyright {
+            
+width: 100%;
+            
+text-align: center;
+        }
+
+
+.footer-menu {
+    display: none;
+}
+
+
+.footer {
+    height: 80px;
+}
+
+.resim2 ul {
+    display: inline-block;
+    width: 100%;
+}
+
+.resim2 ul li {
+    margin-right: 0px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    float: left;
+    width: 50%;
+}
+
+.resim2 ul li span {
+    font-size: 16px;
+}
+
+ul.yaziler {
+    padding: 0px 0px 20px 0px 20px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    margin-top: 40px;
+}
+
+ul.yaziler li p {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    line-height: 21px;
+}
+
+ul.yaziler li i {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+ul.yaziler li p span {
+    margin-bottom: 5px;
+}
+.haberlerSlide .swiper-button-prev {
+    width: 30px !important;
+    height: 30px !important;
+}
+.haberlerSlide .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+}
+.referans .swiper-button-prev{
+    background-image: url("../images/icon/left-arrow.png") !important;
+    background-size: 100% !important;
+    left: 0px;
+    width: 5%;
+  }
+  .referans .swiper-button-next{
+      background-image: url("../images/icon/right-arrow.png") !important;
+      background-size: 100% !important;
+      right: 0px;
+      width: 5%;
+    }
+.resim {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 0px;
+}
+
+.resim img {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.contact {
+    height: auto;
+}
+.banner {
+    width: 100%;
+    height: 150px;
+
+}
+.banner-yazi {
+    font-size: 23px;
+}
+
+.proje ul {
+    display: inline-block;
+}
+
+.proje ul li {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 50%;
+    float: left;
+}
+.proje ul li span b {
+    font-size: 10pt;
+}
+.proje ul li {
+    padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+}
+.proje-baslik ul li {
+    margin-right: 15px;
+}
+.proje-baslik ul {
+    font-size: 14pt;
+    margin: 40px 0px 30px 0px;
+}
+.projeler ul {
+    display: inline-block;
+    margin: 5% 0%;
+}
+.projeler ul li {
+    width: 100%;
+    margin: 0px;
+}
+.right {
+    width: 100%;
+    margin: 0%;
+    padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+}
+.left {
+    width: 100%;
+    margin: 0%;
+    padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+}
+.left b {
+    font-size: 64px;
+}
+.hizmet-title {
+    display: inherit;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.left strong {
+    font-size: 22px;
+    display: inline-block;
+}
+.right2 {
+    width: 100%;
+    margin: 0%;
+    padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+}
+.left2{
+    margin: 0%;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.left2 b {
+    font-size: 64px;
+}
+.resim3 .kutu2 {
+    display: none;
+}
+.resim3 {
+     width: 100%;
+    padding: 4%;
+    box-sizing: border-box;
+}
+.swiperReferans{
+    display:block;
+}
+.swiperReferans{
+    display: block;
+}
+.referans .swiper-button-prev{
+   display: none;
+  }
+  .referans .swiper-button-next{
+      display: none;
+    }
+    .haberlerSlide .swiper-button-prev{
+        display: none;
+      }
+ .haberlerSlide .swiper-button-next{
+    display: none;
+ }
+.swiperHaber{
+    display: block;
+}
+.haberDetay h2 {
+    font-size: 28pt;
+    letter-spacing: 3px;
+}
+.arkaplan span {
+    font-size: 13pt;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.arkaplan strong {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'SanFranciscoDisplay-Bold';
+    font-size: 22pt;
+}
+.arkaplan p {
+    color: white;
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+    line-height: 26px;
+}
+.arkaplan {
+    height: 250px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.anasliderArkaplan {
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.swiperAna{
+    display: none;
+}
+.swiperhb{
+    display: none;
+}
+}
+@media only screen and (max-width: 320px) {
+.form-inner { width: 100%; }
+
+}
